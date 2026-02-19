@@ -24,6 +24,8 @@ export const THEME_MODE = Enum({
 export const HOT_ITEMS = Enum({
   WEIBO: { value: 'weibo', label: '微博', tip: '热搜榜' },
   XIAOHONGSHU: { value: 'xiaohongshu', label: '小红书', tip: '实时热榜' },
+  GITHUB_TRENDING: { value: 'github-trending', label: 'Github', tip: '热门仓库', suffix: <Star size={12} /> },
+  HELLO_GITHUB: { value: 'hello-github', label: 'HelloGithub', tip: '精选' },
   BILIBILI: { value: 'bilibili', label: '哔哩哔哩', tip: '热门榜' },
   DOUYIN: { value: 'douyin', label: '抖音', tip: '热点榜' },
   TOUTIAO: { value: 'toutiao', label: '今日头条', tip: '热榜' },
@@ -33,8 +35,7 @@ export const HOT_ITEMS = Enum({
   QQ: { value: 'qq', label: '腾讯新闻', tip: '热点榜' },
   HUPU: { value: 'hupu', label: '虎扑', tip: '步行街热帖', suffix: '亮' },
   JUEJIN: { value: 'juejin', label: '稀土掘金', tip: '热榜' },
-  GITHUB_TRENDING: { value: 'github-trending', label: 'Github', tip: '热门仓库', suffix: <Star size={12} /> },
-  HELLO_GITHUB: { value: 'hello-github', label: 'HelloGithub', tip: '精选' },
+
   CSDN: { value: 'csdn', label: 'CSDN', tip: '热榜' },
   NETEASE: { value: 'netease', label: '网易新闻', tip: '热榜' },
   QUARK: { value: 'quark', label: '夸克', tip: '今日热点' },
@@ -52,4 +53,5 @@ export const HOT_ITEMS = Enum({
   ZHIHU_DAILY: { value: 'zhihu-daily', label: '知乎日报', tip: '推荐榜' },
   IFANR: { value: 'ifanr', label: '爱范儿', tip: '快讯' },
   ITHOME: { value: 'ithome', label: 'IT之家', tip: '热榜' }
+
 })
